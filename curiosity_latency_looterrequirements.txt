@@ -1,0 +1,22 @@
+# Core Dependencies - EXACT VERSIONS FOR REPRODUCIBILITY
+web3==6.15.1
+firebase-admin==6.2.0
+pandas==2.2.0
+numpy==1.26.4
+scikit-learn==1.4.1
+asyncio==3.4.3
+aiohttp==3.9.3
+python-dotenv==1.0.0
+pydantic==2.5.3
+redis==5.0.1
+tenacity==8.2.3
+websockets==12.0
+colorlog==6.8.2
+cchardet==2.1.8  # Faster charset detection for aiohttp
+aiodns==3.2.0    # Async DNS resolution
+
+# Development
+black==24.2.0
+mypy==1.8.0
+pytest==7.4.4
+pytest-asyncio==0.23.2
